@@ -1,6 +1,7 @@
 apply plugin: "com.android.application"
 apply plugin: "org.jetbrains.kotlin.android"
 apply plugin: "com.facebook.react"
+apply plugin: "kotlin-android"
 
 /**
  * This is the configuration block to customize your React Native Android app.
@@ -86,11 +87,13 @@ android {
         versionName "1.0"
             multiDexEnabled true
     }
-      repositories {
-    flatDir {
-        dirs 'libs'
-    }
-}
+
+    repositories {
+        flatDir {
+            dirs 'libs'
+        }
+   }
+
     signingConfigs {
         debug {
             storeFile file('debug.keystore')
@@ -118,40 +121,35 @@ android {
 dependencies {
     // The version of react-native is set by the React Native Gradle Plugin
     implementation("com.facebook.react:react-android")
- 
 
-     implementation files(
-    "libs/sdk-base-3.0.1.aar",
-    "libs/sdk-fitcloud-3.0.1.aar",
-    // "libs/ext-realtek-dfu-1.0.4.aar",
-    // "libs/ext-sensorgame-1.0.4.aar"
-)
+       // REQUIRED: Timber logging library for FitCloud SDK
+    implementation 'com.jakewharton.timber:timber:5.0.1'
+    implementation 'com.polidea.rxandroidble3:rxandroidble:1.18.1'
 
-implementation "androidx.lifecycle:lifecycle-runtime:2.8.6"
- implementation "com.google.android.exoplayer:exoplayer:2.19.1"
 
-    // ExoPlayer UI (THIS IS THE KEY)
-    implementation "com.google.android.exoplayer:exoplayer-ui:2.19.1"
 
-    // Optional but recommended
-    implementation "com.google.android.exoplayer:exoplayer-common:2.19.1"
-    implementation "com.google.android.exoplayer:exoplayer-datasource:2.19.1"
+    implementation files('libs/sdk-base-3.0.1.aar')
+    implementation files('libs/sdk-fitcloud-3.0.1.aar')
 
-       // Styled controls (REQUIRED for play_icon / pause_icon)
-    implementation "com.google.android.exoplayer:exoplayer-ui:2.19.1"
+    // // ADD THESE - Required for ProcessLifecycleOwner
+    //  implementation "androidx.lifecycle:lifecycle-process:2.8.6"
+     implementation 'androidx.lifecycle:lifecycle-process:2.6.1'
+    implementation 'androidx.lifecycle:lifecycle-runtime-ktx:2.6.1'
+    
+    // RxJava 3
+    implementation 'io.reactivex.rxjava3:rxjava:3.1.5'
+    implementation 'io.reactivex.rxjava3:rxandroid:3.0.2'
+    
+    // RxAndroidBLE 3
+    // implementation 'com.polidea.rxandroidble3:rxandroidble:1.17.2'
 
-    // Lottie (REQUIRED)
-    implementation "com.airbnb.android:lottie:6.4.0"
 
-        implementation("io.reactivex.rxjava3:rxjava:3.1.8")
-    implementation("io.reactivex.rxjava3:rxandroid:3.0.2")
-    implementation("com.polidea.rxandroidble3:rxandroidble:1.19.0")
 
-    implementation("androidx.core:core-ktx:1.12.0")
-    implementation("androidx.multidex:multidex:2.0.1")
     if (hermesEnabled.toBoolean()) {
         implementation("com.facebook.react:hermes-android")
     } else {
         implementation jscFlavor
     }
 }
+
+

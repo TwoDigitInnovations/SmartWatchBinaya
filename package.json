@@ -28,7 +28,8 @@
     "gradle-cache-clean": "rm -rf ~/.gradle/caches/ && cd android && ./gradlew stop && cd ..",
     "open-android": "open -a 'Android Studio' ",
     "open-ios": "open -a Xcode ",
-    "clean-project": "npx react-native-clean-project"
+    "clean-project": "npx react-native-clean-project",
+    "adb-log": "adb logcat -c && adb logcat | grep -E '(FitCloudSDK|MainApp|AndroidRuntime|FATAL)'"
   },
   "dependencies": {
     "@react-native-async-storage/async-storage": "^2.2.0",
@@ -39,9 +40,7 @@
     "@react-navigation/bottom-tabs": "^7.8.12",
     "@react-navigation/native": "^7.1.25",
     "@react-navigation/native-stack": "^7.8.6",
-    "install": "^0.13.0",
     "lucide-react-native": "^0.561.0",
-    "npm": "^11.7.0",
     "react": "19.1.1",
     "react-native": "0.82.1",
     "react-native-background-fetch": "^4.2.8",
@@ -55,7 +54,7 @@
     "react-native-safe-area-context": "^5.6.2",
     "react-native-screens": "^4.19.0",
     "react-native-simple-crypto": "^0.2.15",
-    "react-native-sqlite-storage": "^6.0.1",
+    "react-native-sqlite-2": "^3.6.3",
     "react-native-svg": "^15.15.1"
   },
   "devDependencies": {

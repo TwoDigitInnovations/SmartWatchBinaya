@@ -79,7 +79,9 @@ function AppContent() {
   const [initial, setInitial] = useState('');
 
   useEffect(() => {
-
+    if (api.watchIsConnected) {
+      api.watchIsConnected()
+    }
     // if (isWatchReady) {
     (async () => {
       createTables().catch(error => {
@@ -105,7 +107,7 @@ function AppContent() {
     })();
     // }
 
-  }, []);
+  }, [api, isWatchReady]);
 
   return (
 

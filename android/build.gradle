@@ -6,6 +6,10 @@ buildscript {
         targetSdkVersion = 36
         ndkVersion = "27.1.12297006"
         kotlinVersion = "2.1.20"
+        // Explicitly set the node executable path for React Native
+        react = [
+            nodeExecutable: "/opt/homebrew/bin/node"
+        ]
     }
     repositories {
         google()
@@ -22,6 +26,14 @@ buildscript {
 
 
 
+    }
+}
+
+allprojects {
+    repositories {
+        google()
+        mavenCentral()
+        maven { url 'https://jitpack.io' }
     }
 }
 

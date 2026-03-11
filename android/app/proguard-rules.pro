@@ -8,3 +8,10 @@
 #   http://developer.android.com/guide/developing/tools/proguard.html
 
 # Add any project specific keep options here:
+# FitCloud SDK
+-keep class com.topstep.fitcloud.** { *; }
+-dontwarn com.topstep.fitcloud.**
+
+# Lifecycle
+-keep class androidx.lifecycle.** { *; }
+-dontwarn androidx.lifecycle.**

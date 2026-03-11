@@ -22,8 +22,8 @@ PODS:
   - FBLazyVector (0.82.1)
   - FitCloudDFUKit (1.3.4-beta.3):
     - iOSDFULibrary (~> 4.11.0)
-  - FitCloudKit (1.3.2-beta.29)
-  - FitCloudWFKit (1.2.1-beta.1)
+  - FitCloudKit (1.3.2-beta.49)
+  - FitCloudWFKit (1.2.1-beta.3)
   - fmt (11.0.2)
   - glog (0.3.5)
   - hermes-engine (0.82.1):
@@ -31,7 +31,7 @@ PODS:
   - hermes-engine/Pre-built (0.82.1)
   - iOSDFULibrary (4.11.1):
     - ZIPFoundation (= 0.9.11)
-  - iOSLogBrowserSDK (1.0.8):
+  - iOSLogBrowserSDK (1.0.9):
     - XLFacility
     - YYWebImage
   - MultiplatformBleAdapter (0.2.0)
@@ -1983,7 +1983,7 @@ PODS:
     - Yoga
   - react-native-simple-crypto (0.2.15):
     - React
-  - react-native-sqlite-storage (6.0.1):
+  - react-native-sqlite-2 (3.6.3):
     - React-Core
   - React-NativeModulesApple (0.82.1):
     - boost
@@ -2524,8 +2524,9 @@ PODS:
     - React-perflogger (= 0.82.1)
     - React-utils (= 0.82.1)
     - SocketRocket
-  - RNBackgroundFetch (4.2.8):
+  - RNBackgroundFetch (4.3.0):
     - React-Core
+    - TSBackgroundFetch (~> 4.0.0)
   - RNCAsyncStorage (2.2.0):
     - boost
     - DoubleConversion
@@ -2582,7 +2583,7 @@ PODS:
     - ReactCommon/turbomodule/core
     - SocketRocket
     - Yoga
-  - RNDateTimePicker (8.5.1):
+  - RNDateTimePicker (8.6.0):
     - boost
     - DoubleConversion
     - fast_float
@@ -2612,7 +2613,7 @@ PODS:
     - Yoga
   - RNDeviceInfo (15.0.1):
     - React-Core
-  - RNScreens (4.19.0):
+  - RNScreens (4.23.0):
     - boost
     - DoubleConversion
     - fast_float
@@ -2639,10 +2640,10 @@ PODS:
     - ReactCodegen
     - ReactCommon/turbomodule/bridging
     - ReactCommon/turbomodule/core
-    - RNScreens/common (= 4.19.0)
+    - RNScreens/common (= 4.23.0)
     - SocketRocket
     - Yoga
-  - RNScreens/common (4.19.0):
+  - RNScreens/common (4.23.0):
     - boost
     - DoubleConversion
     - fast_float
@@ -2671,7 +2672,7 @@ PODS:
     - ReactCommon/turbomodule/core
     - SocketRocket
     - Yoga
-  - RNSVG (15.15.1):
+  - RNSVG (15.15.3):
     - boost
     - DoubleConversion
     - fast_float
@@ -2697,10 +2698,10 @@ PODS:
     - ReactCodegen
     - ReactCommon/turbomodule/bridging
     - ReactCommon/turbomodule/core
-    - RNSVG/common (= 15.15.1)
+    - RNSVG/common (= 15.15.3)
     - SocketRocket
     - Yoga
-  - RNSVG/common (15.15.1):
+  - RNSVG/common (15.15.3):
     - boost
     - DoubleConversion
     - fast_float
@@ -2734,6 +2735,7 @@ PODS:
   - TopStepAISDK/Core (1.0.0-beta.3):
     - AFNetworking
     - SocketRocket
+  - TSBackgroundFetch (4.0.6)
   - XLFacility (1.5.19):
     - XLFacility/Core (= 1.5.19)
     - XLFacility/GCDNetworking (= 1.5.19)
@@ -2811,7 +2813,7 @@ DEPENDENCIES:
   - react-native-image-picker (from `../node_modules/react-native-image-picker`)
   - react-native-safe-area-context (from `../node_modules/react-native-safe-area-context`)
   - react-native-simple-crypto (from `../node_modules/react-native-simple-crypto`)
-  - react-native-sqlite-storage (from `../node_modules/react-native-sqlite-storage`)
+  - react-native-sqlite-2 (from `../node_modules/react-native-sqlite-2`)
   - React-NativeModulesApple (from `../node_modules/react-native/ReactCommon/react/nativemodule/core/platform/ios`)
   - React-oscompat (from `../node_modules/react-native/ReactCommon/oscompat`)
   - React-perflogger (from `../node_modules/react-native/ReactCommon/reactperflogger`)
@@ -2863,6 +2865,7 @@ SPEC REPOS:
     - iOSLogBrowserSDK
     - MultiplatformBleAdapter
     - SocketRocket
+    - TSBackgroundFetch
     - YYCache
     - YYImage
     - YYWebImage
@@ -2968,8 +2971,8 @@ EXTERNAL SOURCES:
     :path: "../node_modules/react-native-safe-area-context"
   react-native-simple-crypto:
     :path: "../node_modules/react-native-simple-crypto"
-  react-native-sqlite-storage:
-    :path: "../node_modules/react-native-sqlite-storage"
+  react-native-sqlite-2:
+    :path: "../node_modules/react-native-sqlite-2"
   React-NativeModulesApple:
     :path: "../node_modules/react-native/ReactCommon/react/nativemodule/core/platform/ios"
   React-oscompat:
@@ -3057,13 +3060,13 @@ EXTERNAL SOURCES:
 
 CHECKOUT OPTIONS:
   FitCloudDFUKit:
-    :commit: 52a361703b0feff6964873917c99bf73efd2673f
+    :commit: 3a1d07860fbcbbc0470eb7b42c1743e5d9ffb16f
     :git: https://github.com/htangsmart/FitCloudPro-SDK-iOS.git
   FitCloudKit:
-    :commit: 52a361703b0feff6964873917c99bf73efd2673f
+    :commit: 3a1d07860fbcbbc0470eb7b42c1743e5d9ffb16f
     :git: https://github.com/htangsmart/FitCloudPro-SDK-iOS.git
   FitCloudWFKit:
-    :commit: 52a361703b0feff6964873917c99bf73efd2673f
+    :commit: 3a1d07860fbcbbc0470eb7b42c1743e5d9ffb16f
     :git: https://github.com/htangsmart/FitCloudPro-SDK-iOS.git
   XLFacility:
     :commit: a3c4d36faa40ad5956b48cb84ea46722fe3cec11
@@ -3077,13 +3080,13 @@ SPEC CHECKSUMS:
   fast_float: b32c788ed9c6a8c584d114d0047beda9664e7cc6
   FBLazyVector: 0aa6183b9afe3c31fc65b5d1eeef1f3c19b63bfa
   FitCloudDFUKit: 5d053ba3480fd19bd844f6640753194215d1d8fa
-  FitCloudKit: 9c1bc47e8d6a7f9fecd4a3adc2c74c76d66b30ec
-  FitCloudWFKit: 595ed4542c4b1e5efb518245b7c3129d2f452cfc
+  FitCloudKit: 1dd65be0a2bc2a0db0855f685de0c7c3df90b9b3
+  FitCloudWFKit: 05427b4f0755ce608d1f76003f01d209390766f5
   fmt: a40bb5bd0294ea969aaaba240a927bd33d878cdd
   glog: 5683914934d5b6e4240e497e0f4a3b42d1854183
   hermes-engine: 273e30e7fb618279934b0b95ffab60ecedb7acf5
   iOSDFULibrary: 1f4139c6c1bb2b2f1f7b127f67dc52504778f8be
-  iOSLogBrowserSDK: b7cacde372f3dfc751c2b070123e7bd80c619173
+  iOSLogBrowserSDK: 7d833da43df9490ef3eb66b9d332ed02aaeab51b
   MultiplatformBleAdapter: b1fddd0d499b96b607e00f0faa8e60648343dc1d
   RCT-Folly: 846fda9475e61ec7bcbf8a3fe81edfcaeb090669
   RCTDeprecation: f17e2ebc07876ca9ab8eb6e4b0a4e4647497ae3a
@@ -3123,7 +3126,7 @@ SPEC CHECKSUMS:
   react-native-image-picker: 0314366753615115fa55c3cc937ac44cb7e75702
   react-native-safe-area-context: c00143b4823773bba23f2f19f85663ae89ceb460
   react-native-simple-crypto: 0f176d506c90e1c4da9d9a67f46428b1e92c70e2
-  react-native-sqlite-storage: 0c84826214baaa498796c7e46a5ccc9a82e114ed
+  react-native-sqlite-2: ee4c7269594dc3835643103bbf1de60850902511
   React-NativeModulesApple: 46690a0fe94ec28fc6fc686ec797b911d251ded0
   React-oscompat: 95875e81f5d4b3c7b2c888d5bd2c9d83450d8bdb
   React-perflogger: 2e229bf33e42c094fd64516d89ec1187a2b79b5b
@@ -3156,15 +3159,16 @@ SPEC CHECKSUMS:
   ReactAppDependencyProvider: a45ef34bb22dc1c9b2ac1f74167d9a28af961176
   ReactCodegen: 878add6c7d8ff8cea87697c44d29c03b79b6f2d9
   ReactCommon: 804dc80944fa90b86800b43c871742ec005ca424
-  RNBackgroundFetch: e44c9e85d7fb3122c37d8a806278f62c7682d7ea
+  RNBackgroundFetch: a5c9975c270d869a666364ade366d92f7435dd74
   RNCAsyncStorage: 29f0230e1a25f36c20b05f65e2eb8958d6526e82
   RNCPicker: bf95ec4b2483e2ab256047130bc536b437cd916c
-  RNDateTimePicker: 243cc82889368422dab234d73dec63d6cdb1e70f
+  RNDateTimePicker: 97a86d7c8b51f2d51f694a9dddfe5996dfd9a407
   RNDeviceInfo: 36d7f232bfe7c9b5c494cb7793230424ed32c388
-  RNScreens: ffbb0296608eb3560de641a711bbdb663ed1f6b4
-  RNSVG: 1bbfeab22b26db18b73d2e36b37a0f02a1180838
+  RNScreens: afaf526a9c804c3b4503f950cf3e67ed81e29ada
+  RNSVG: 91da5f4f11f562cafee06e2a6f04bb4401ef1090
   SocketRocket: d4aabe649be1e368d1318fdf28a022d714d65748
   TopStepAISDK: e12f1f152d559a3f70fccb71ddf93a539786fa42
+  TSBackgroundFetch: 0afbeaae4e1132866e1d4b6e55265af26b5958ae
   XLFacility: b1a15fa2664a6d39338e9839e9e82ef4393a7383
   Yoga: 689c8e04277f3ad631e60fe2a08e41d411daf8eb
   YYCache: 8105b6638f5e849296c71f331ff83891a4942952

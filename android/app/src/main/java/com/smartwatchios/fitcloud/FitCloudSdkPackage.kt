@@ -9,10 +9,16 @@ class FitCloudSdkPackage : ReactPackage {
 
     override fun createNativeModules(
         reactContext: ReactApplicationContext
-    ) = listOf(FitCloudSdkModule(reactContext))
+    ): List<NativeModule> {
+        return listOf(
+            FitCloudProModule(reactContext),
+            FitCloudStepsModule(reactContext)
+        )
+    }
 
     override fun createViewManagers(
         reactContext: ReactApplicationContext
-    ) = emptyList<ViewManager<*, *>>()
+    ): List<ViewManager<*, *>> {
+        return emptyList()
+    }
 }
-
