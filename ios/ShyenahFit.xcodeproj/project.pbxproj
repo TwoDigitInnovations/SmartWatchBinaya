@@ -21,30 +21,30 @@
 		8808C0C32EF100F500FAC927 /* FitCloudGoalM-module.m in Sources */ = {isa = PBXBuildFile; fileRef = 8808C0C22EF100F500FAC927 /* FitCloudGoalM-module.m */; };
 		8808C0C52EF1556100FAC927 /* FitCloudHealthMonitorModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8808C0C42EF1556100FAC927 /* FitCloudHealthMonitorModule.swift */; };
 		8808C0C72EF15B8800FAC927 /* FitCloudHealthM-module.m in Sources */ = {isa = PBXBuildFile; fileRef = 8808C0C62EF15B8800FAC927 /* FitCloudHealthM-module.m */; };
-		D467A03E7323714867447DF6 /* libPods-smartwatchios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 184D73489FEE7F38AFB49CA7 /* libPods-smartwatchios.a */; };
+		D467A03E7323714867447DF6 /* libPods-ShyenahFit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 184D73489FEE7F38AFB49CA7 /* libPods-ShyenahFit.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		13B07F961A680F5B00A75B9A /* smartwatchios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = smartwatchios.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = smartwatchios/Images.xcassets; sourceTree = "<group>"; };
-		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = smartwatchios/Info.plist; sourceTree = "<group>"; };
-		13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = PrivacyInfo.xcprivacy; path = smartwatchios/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
-		184D73489FEE7F38AFB49CA7 /* libPods-smartwatchios.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-smartwatchios.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07F961A680F5B00A75B9A /* ShyenahFit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ShyenahFit.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = "ShyenahFit/Images.xcassets"; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = "ShyenahFit/Info.plist"; sourceTree = "<group>"; };
+		13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = PrivacyInfo.xcprivacy; path = ShyenahFit/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		184D73489FEE7F38AFB49CA7 /* libPods-ShyenahFit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ShyenahFit.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		616CEEB92EE1A23900379BCA /* FitCloudProModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitCloudProModule.swift; sourceTree = "<group>"; };
-		616CEEBB2EE1A40900379BCA /* smartwatchios-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "smartwatchios-Bridging-Header.h"; sourceTree = "<group>"; };
+		616CEEBB2EE1A40900379BCA /* ShyenahFit-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ShyenahFit-Bridging-Header.h"; sourceTree = "<group>"; };
 		616CEEBC2EE1A4A400379BCA /* FitCloudProModule.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FitCloudProModule.m; sourceTree = "<group>"; };
 		616CEEBE2EE1A5D600379BCA /* RCTEventEmitter+Shared.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RCTEventEmitter+Shared.swift"; sourceTree = "<group>"; };
 		6173271F2EE152EE00217200 /* FitCloudProSDK.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitCloudProSDK.swift; sourceTree = "<group>"; };
-		761780EC2CA45674006654EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = smartwatchios/AppDelegate.swift; sourceTree = "<group>"; };
-		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = smartwatchios/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		761780EC2CA45674006654EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = ShyenahFit/AppDelegate.swift; sourceTree = "<group>"; };
+		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = "ShyenahFit/LaunchScreen.storyboard"; sourceTree = "<group>"; };
 		8808C0BC2EF0F99600FAC927 /* FitCloudStepsModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitCloudStepsModule.swift; sourceTree = "<group>"; };
 		8808C0BE2EF0F9A000FAC927 /* FitCloudGoalsModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitCloudGoalsModule.swift; sourceTree = "<group>"; };
 		8808C0C02EF0FB9D00FAC927 /* FitCloudStepM-module.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "FitCloudStepM-module.m"; sourceTree = "<group>"; };
 		8808C0C22EF100F500FAC927 /* FitCloudGoalM-module.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "FitCloudGoalM-module.m"; sourceTree = "<group>"; };
 		8808C0C42EF1556100FAC927 /* FitCloudHealthMonitorModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitCloudHealthMonitorModule.swift; sourceTree = "<group>"; };
 		8808C0C62EF15B8800FAC927 /* FitCloudHealthM-module.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "FitCloudHealthM-module.m"; sourceTree = "<group>"; };
-		A08CBB0335FA3A4EE31E9B70 /* Pods-smartwatchios.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-smartwatchios.debug.xcconfig"; path = "Target Support Files/Pods-smartwatchios/Pods-smartwatchios.debug.xcconfig"; sourceTree = "<group>"; };
-		ECC19A21EA67328834F8884C /* Pods-smartwatchios.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-smartwatchios.release.xcconfig"; path = "Target Support Files/Pods-smartwatchios/Pods-smartwatchios.release.xcconfig"; sourceTree = "<group>"; };
+		A08CBB0335FA3A4EE31E9B70 /* Pods-ShyenahFit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShyenahFit.debug.xcconfig"; path = "Target Support Files/Pods-ShyenahFit/Pods-ShyenahFit.debug.xcconfig"; sourceTree = "<group>"; };
+		ECC19A21EA67328834F8884C /* Pods-ShyenahFit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShyenahFit.release.xcconfig"; path = "Target Support Files/Pods-ShyenahFit/Pods-ShyenahFit.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -53,14 +53,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D467A03E7323714867447DF6 /* libPods-smartwatchios.a in Frameworks */,
+				D467A03E7323714867447DF6 /* libPods-ShyenahFit.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		13B07FAE1A68108700A75B9A /* smartwatchios */ = {
+		13B07FAE1A68108700A75B9A /* ShyenahFit */ = {
 			isa = PBXGroup;
 			children = (
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
@@ -70,7 +70,7 @@
 				13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */,
 				6173271F2EE152EE00217200 /* FitCloudProSDK.swift */,
 				616CEEB92EE1A23900379BCA /* FitCloudProModule.swift */,
-				616CEEBB2EE1A40900379BCA /* smartwatchios-Bridging-Header.h */,
+				616CEEBB2EE1A40900379BCA /* ShyenahFit-Bridging-Header.h */,
 				616CEEBC2EE1A4A400379BCA /* FitCloudProModule.m */,
 				616CEEBE2EE1A5D600379BCA /* RCTEventEmitter+Shared.swift */,
 				8808C0BC2EF0F99600FAC927 /* FitCloudStepsModule.swift */,
@@ -80,14 +80,14 @@
 				8808C0C42EF1556100FAC927 /* FitCloudHealthMonitorModule.swift */,
 				8808C0C62EF15B8800FAC927 /* FitCloudHealthM-module.m */,
 			);
-			name = smartwatchios;
+			name = "ShyenahFit";
 			sourceTree = "<group>";
 		};
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				184D73489FEE7F38AFB49CA7 /* libPods-smartwatchios.a */,
+				184D73489FEE7F38AFB49CA7 /* libPods-ShyenahFit.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -102,7 +102,7 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
-				13B07FAE1A68108700A75B9A /* smartwatchios */,
+				13B07FAE1A68108700A75B9A /* ShyenahFit */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
@@ -116,7 +116,7 @@
 		83CBBA001A601CBA00E9B192 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				13B07F961A680F5B00A75B9A /* smartwatchios.app */,
+				13B07F961A680F5B00A75B9A /* ShyenahFit.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -124,8 +124,8 @@
 		BBD78D7AC51CEA395F1C20DB /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				A08CBB0335FA3A4EE31E9B70 /* Pods-smartwatchios.debug.xcconfig */,
-				ECC19A21EA67328834F8884C /* Pods-smartwatchios.release.xcconfig */,
+				A08CBB0335FA3A4EE31E9B70 /* Pods-ShyenahFit.debug.xcconfig */,
+				ECC19A21EA67328834F8884C /* Pods-ShyenahFit.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -133,9 +133,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		13B07F861A680F5B00A75B9A /* smartwatchios */ = {
+		13B07F861A680F5B00A75B9A /* ShyenahFit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "smartwatchios" */;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "ShyenahFit" */;
 			buildPhases = (
 				194D38F840A7A20F332F0A7E /* [CP] Check Pods Manifest.lock */,
 				13B07F871A680F5B00A75B9A /* Sources */,
@@ -149,9 +149,9 @@
 			);
 			dependencies = (
 			);
-			name = smartwatchios;
-			productName = smartwatchios;
-			productReference = 13B07F961A680F5B00A75B9A /* smartwatchios.app */;
+			name = "ShyenahFit";
+			productName = "ShyenahFit";
+			productReference = 13B07F961A680F5B00A75B9A /* ShyenahFit.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -167,7 +167,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "smartwatchios" */;
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "ShyenahFit" */;
 			compatibilityVersion = "Xcode 12.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -180,7 +180,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				13B07F861A680F5B00A75B9A /* smartwatchios */,
+				13B07F861A680F5B00A75B9A /* ShyenahFit */,
 			);
 		};
 /* End PBXProject section */
@@ -230,7 +230,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-smartwatchios-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-ShyenahFit-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -243,15 +243,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-smartwatchios/Pods-smartwatchios-resources-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-ShyenahFit/Pods-ShyenahFit-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-smartwatchios/Pods-smartwatchios-resources-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-ShyenahFit/Pods-ShyenahFit-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-smartwatchios/Pods-smartwatchios-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ShyenahFit/Pods-ShyenahFit-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		BE3FDC7B73B5DDF4F4019979 /* [CP] Embed Pods Frameworks */ = {
@@ -260,15 +260,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-smartwatchios/Pods-smartwatchios-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-ShyenahFit/Pods-ShyenahFit-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-smartwatchios/Pods-smartwatchios-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-ShyenahFit/Pods-ShyenahFit-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-smartwatchios/Pods-smartwatchios-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ShyenahFit/Pods-ShyenahFit-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -297,14 +297,15 @@
 /* Begin XCBuildConfiguration section */
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A08CBB0335FA3A4EE31E9B70 /* Pods-smartwatchios.debug.xcconfig */;
+			baseConfigurationReference = A08CBB0335FA3A4EE31E9B70 /* Pods-ShyenahFit.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = JJVM8P2PUD;
 				ENABLE_BITCODE = NO;
-				INFOPLIST_FILE = smartwatchios/Info.plist;
+				INFOPLIST_FILE = "ShyenahFit/Info.plist";
+             INFOPLIST_KEY_CFBundleDisplayName = "ShyenahFit";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -316,9 +317,9 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = smartwatchios;
-				SWIFT_OBJC_BRIDGING_HEADER = "smartwatchios-Bridging-Header.h";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.binaya.fitcloud.shyenah";
+				PRODUCT_NAME = "ShyenahFit";
+				SWIFT_OBJC_BRIDGING_HEADER = "ShyenahFit-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -327,13 +328,14 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = ECC19A21EA67328834F8884C /* Pods-smartwatchios.release.xcconfig */;
+			baseConfigurationReference = ECC19A21EA67328834F8884C /* Pods-ShyenahFit.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = JJVM8P2PUD;
-				INFOPLIST_FILE = smartwatchios/Info.plist;
+				INFOPLIST_FILE = "ShyenahFit/Info.plist";
+             INFOPLIST_KEY_CFBundleDisplayName = "ShyenahFit";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -345,9 +347,9 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = smartwatchios;
-				SWIFT_OBJC_BRIDGING_HEADER = "smartwatchios-Bridging-Header.h";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.binaya.fitcloud.shyenah";
+				PRODUCT_NAME = "ShyenahFit";
+				SWIFT_OBJC_BRIDGING_HEADER = "ShyenahFit-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
@@ -500,7 +502,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "smartwatchios" */ = {
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "ShyenahFit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				13B07F941A680F5B00A75B9A /* Debug */,
@@ -509,7 +511,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "smartwatchios" */ = {
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "ShyenahFit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				83CBBA201A601CBA00E9B192 /* Debug */,

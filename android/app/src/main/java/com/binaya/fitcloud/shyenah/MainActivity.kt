@@ -1,4 +1,4 @@
-package com.smartwatchios
+package com.binaya.fitcloud.shyenah
 
 import android.Manifest
 import android.content.pm.PackageManager
@@ -19,7 +19,7 @@ class MainActivity : ReactActivity() {
         private const val PERMISSION_REQUEST_CODE = 1001
     }
 
-    override fun getMainComponentName(): String = "smartwatchios"
+    override fun getMainComponentName(): String = "ShyenahFit"
 
     override fun createReactActivityDelegate(): ReactActivityDelegate =
         DefaultReactActivityDelegate(this, mainComponentName, fabricEnabled)

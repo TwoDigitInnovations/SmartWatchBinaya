@@ -1,4 +1,4 @@
-package com.smartwatchios
+package com.binaya.fitcloud.shyenah
 
 import android.app.Application
 import android.os.Handler
@@ -11,7 +11,7 @@ import com.facebook.react.ReactNativeApplicationEntryPoint.loadReactNative
 import com.facebook.react.defaults.DefaultReactHost.getDefaultReactHost
 import com.topstep.fitcloud.sdk.v2.FcSDK
 import com.topstep.wearkit.base.ProcessLifecycleManager
-import com.smartwatchios.fitcloud.FitCloudSdkPackage
+import com.binaya.fitcloud.shyenah.fitcloud.FitCloudSdkPackage
 import io.reactivex.rxjava3.exceptions.UndeliverableException
 import io.reactivex.rxjava3.plugins.RxJavaPlugins
 
