@@ -25,9 +25,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		13B07F961A680F5B00A75B9A /* ShyenahFit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ShyenahFit.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = "ShyenahFit/Images.xcassets"; sourceTree = "<group>"; };
-		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = "ShyenahFit/Info.plist"; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* ShyenahFit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShyenahFit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = ShyenahFit/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = ShyenahFit/Info.plist; sourceTree = "<group>"; };
 		13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = PrivacyInfo.xcprivacy; path = ShyenahFit/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		184D73489FEE7F38AFB49CA7 /* libPods-ShyenahFit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ShyenahFit.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		616CEEB92EE1A23900379BCA /* FitCloudProModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitCloudProModule.swift; sourceTree = "<group>"; };
@@ -36,7 +36,7 @@
 		616CEEBE2EE1A5D600379BCA /* RCTEventEmitter+Shared.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RCTEventEmitter+Shared.swift"; sourceTree = "<group>"; };
 		6173271F2EE152EE00217200 /* FitCloudProSDK.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitCloudProSDK.swift; sourceTree = "<group>"; };
 		761780EC2CA45674006654EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = ShyenahFit/AppDelegate.swift; sourceTree = "<group>"; };
-		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = "ShyenahFit/LaunchScreen.storyboard"; sourceTree = "<group>"; };
+		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = ShyenahFit/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8808C0BC2EF0F99600FAC927 /* FitCloudStepsModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitCloudStepsModule.swift; sourceTree = "<group>"; };
 		8808C0BE2EF0F9A000FAC927 /* FitCloudGoalsModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitCloudGoalsModule.swift; sourceTree = "<group>"; };
 		8808C0C02EF0FB9D00FAC927 /* FitCloudStepM-module.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "FitCloudStepM-module.m"; sourceTree = "<group>"; };
@@ -80,7 +80,7 @@
 				8808C0C42EF1556100FAC927 /* FitCloudHealthMonitorModule.swift */,
 				8808C0C62EF15B8800FAC927 /* FitCloudHealthM-module.m */,
 			);
-			name = "ShyenahFit";
+			name = ShyenahFit;
 			sourceTree = "<group>";
 		};
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
@@ -149,8 +149,8 @@
 			);
 			dependencies = (
 			);
-			name = "ShyenahFit";
-			productName = "ShyenahFit";
+			name = ShyenahFit;
+			productName = ShyenahFit;
 			productReference = 13B07F961A680F5B00A75B9A /* ShyenahFit.app */;
 			productType = "com.apple.product-type.application";
 		};
@@ -304,8 +304,8 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = JJVM8P2PUD;
 				ENABLE_BITCODE = NO;
-				INFOPLIST_FILE = "ShyenahFit/Info.plist";
-             INFOPLIST_KEY_CFBundleDisplayName = "ShyenahFit";
+				INFOPLIST_FILE = ShyenahFit/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = ShyenahFit;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -317,8 +317,8 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.binaya.fitcloud.shyenah";
-				PRODUCT_NAME = "ShyenahFit";
+				PRODUCT_BUNDLE_IDENTIFIER = com.binaya.fitcloud.shyenah;
+				PRODUCT_NAME = ShyenahFit;
 				SWIFT_OBJC_BRIDGING_HEADER = "ShyenahFit-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -334,8 +334,8 @@
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = JJVM8P2PUD;
-				INFOPLIST_FILE = "ShyenahFit/Info.plist";
-             INFOPLIST_KEY_CFBundleDisplayName = "ShyenahFit";
+				INFOPLIST_FILE = ShyenahFit/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = ShyenahFit;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -347,8 +347,8 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.binaya.fitcloud.shyenah";
-				PRODUCT_NAME = "ShyenahFit";
+				PRODUCT_BUNDLE_IDENTIFIER = com.binaya.fitcloud.shyenah;
+				PRODUCT_NAME = ShyenahFit;
 				SWIFT_OBJC_BRIDGING_HEADER = "ShyenahFit-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
